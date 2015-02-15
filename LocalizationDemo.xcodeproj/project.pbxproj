@@ -38,6 +38,8 @@
 		BEE59AF61A906E8F00BD1A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE59AF71A906E8F00BD1A67 /* LocalizationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDemoTests.swift; sourceTree = "<group>"; };
 		BEE59B011A90720700BD1A67 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+		BEE59B031A90748600BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		BEE59B041A90748600BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BEE59AE61A906E8F00BD1A67 /* Base */,
+				BEE59B031A90748600BD1A67 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BEE59AEB1A906E8F00BD1A67 /* Base */,
+				BEE59B041A90748600BD1A67 /* de */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
