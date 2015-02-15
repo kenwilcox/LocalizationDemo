@@ -34,16 +34,16 @@
 		BEE59AE31A906E8F00BD1A67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEE59AE61A906E8F00BD1A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEE59AE81A906E8F00BD1A67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BEE59AEB1A906E8F00BD1A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BEE59AF11A906E8F00BD1A67 /* LocalizationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE59AF61A906E8F00BD1A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE59AF71A906E8F00BD1A67 /* LocalizationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDemoTests.swift; sourceTree = "<group>"; };
 		BEE59B031A90748600BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		BEE59B041A90748600BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		BEE59B081A90764D00BD1A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BEE59B0A1A90764F00BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BEE59B0C1A9076FF00BD1A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/hello.png; sourceTree = "<group>"; };
 		BEE59B0E1A90770100BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/hello.png; sourceTree = "<group>"; };
+		BEE59B111A90781F00BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEE59B131A90782800BD1A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,8 +261,8 @@
 		BEE59AEA1A906E8F00BD1A67 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BEE59AEB1A906E8F00BD1A67 /* Base */,
-				BEE59B041A90748600BD1A67 /* de */,
+				BEE59B111A90781F00BD1A67 /* de */,
+				BEE59B131A90782800BD1A67 /* en */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
