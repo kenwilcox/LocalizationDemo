@@ -15,6 +15,7 @@
 		BEE59AF81A906E8F00BD1A67 /* LocalizationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE59AF71A906E8F00BD1A67 /* LocalizationDemoTests.swift */; };
 		BEE59B071A90764D00BD1A67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE59B091A90764D00BD1A67 /* Localizable.strings */; };
 		BEE59B0B1A9076FF00BD1A67 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE59B0D1A9076FF00BD1A67 /* hello.png */; };
+		BEE59B161A90798500BD1A67 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEE59B141A90798500BD1A67 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		BEE59B0E1A90770100BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = de; path = de.lproj/hello.png; sourceTree = "<group>"; };
 		BEE59B111A90781F00BD1A67 /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BEE59B131A90782800BD1A67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEE59B141A90798500BD1A67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BEE59B151A90798500BD1A67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 		BEE59AD31A906E8F00BD1A67 = {
 			isa = PBXGroup;
 			children = (
+				BEE59B141A90798500BD1A67 /* LICENSE */,
+				BEE59B151A90798500BD1A67 /* README.md */,
 				BEE59ADE1A906E8F00BD1A67 /* LocalizationDemo */,
 				BEE59AF41A906E8F00BD1A67 /* LocalizationDemoTests */,
 				BEE59ADD1A906E8F00BD1A67 /* Products */,
@@ -203,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE59B161A90798500BD1A67 /* LICENSE in Resources */,
 				BEE59B071A90764D00BD1A67 /* Localizable.strings in Resources */,
 				BEE59B0B1A9076FF00BD1A67 /* hello.png in Resources */,
 				BEE59AE71A906E8F00BD1A67 /* Main.storyboard in Resources */,
