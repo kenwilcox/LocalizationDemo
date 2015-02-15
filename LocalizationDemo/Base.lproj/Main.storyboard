@@ -114,6 +114,13 @@
                             <constraint firstAttribute="bottomMargin" secondItem="g5b-5F-aHi" secondAttribute="bottom" constant="14" id="zXw-4Y-ly1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currencyLabel" destination="Bw1-uK-phN" id="6Td-lj-v9u"/>
+                        <outlet property="dateLabel" destination="cqW-Z8-o3H" id="QOK-uv-kIq"/>
+                        <outlet property="imageView" destination="g5b-5F-aHi" id="W8P-BR-jLh"/>
+                        <outlet property="numberLabel" destination="qUx-WP-GaK" id="Fv4-4J-qhl"/>
+                        <outlet property="textLabel" destination="B0z-Ev-Im5" id="RFJ-H6-Uk2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

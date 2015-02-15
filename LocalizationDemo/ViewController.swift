@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var textLabel: UILabel!
+  @IBOutlet weak var numberLabel: UILabel!
+  @IBOutlet weak var currencyLabel: UILabel!
+  @IBOutlet weak var dateLabel: UILabel!
+  @IBOutlet weak var imageView: UIImageView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
