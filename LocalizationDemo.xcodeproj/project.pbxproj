@@ -13,6 +13,7 @@
 		BEE59AE91A906E8F00BD1A67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE59AE81A906E8F00BD1A67 /* Images.xcassets */; };
 		BEE59AEC1A906E8F00BD1A67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE59AEA1A906E8F00BD1A67 /* LaunchScreen.xib */; };
 		BEE59AF81A906E8F00BD1A67 /* LocalizationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE59AF71A906E8F00BD1A67 /* LocalizationDemoTests.swift */; };
+		BEE59B021A90720700BD1A67 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE59B011A90720700BD1A67 /* hello.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BEE59AF11A906E8F00BD1A67 /* LocalizationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE59AF61A906E8F00BD1A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE59AF71A906E8F00BD1A67 /* LocalizationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationDemoTests.swift; sourceTree = "<group>"; };
+		BEE59B011A90720700BD1A67 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BEE59ADE1A906E8F00BD1A67 /* LocalizationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEE59B011A90720700BD1A67 /* hello.png */,
 				BEE59AE11A906E8F00BD1A67 /* AppDelegate.swift */,
 				BEE59AE31A906E8F00BD1A67 /* ViewController.swift */,
 				BEE59AE51A906E8F00BD1A67 /* Main.storyboard */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE59B021A90720700BD1A67 /* hello.png in Resources */,
 				BEE59AE71A906E8F00BD1A67 /* Main.storyboard in Resources */,
 				BEE59AEC1A906E8F00BD1A67 /* LaunchScreen.xib in Resources */,
 				BEE59AE91A906E8F00BD1A67 /* Images.xcassets in Resources */,

@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
   @IBOutlet weak var textLabel: UILabel!
   @IBOutlet weak var numberLabel: UILabel!
   @IBOutlet weak var currencyLabel: UILabel!
@@ -19,13 +19,21 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    populateValues()
   }
-
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-
-
+  
+  func populateValues() {
+    textLabel.text = "Good Morning"
+    numberLabel.text = "9999999.999"
+    currencyLabel.text = "50000"
+    dateLabel.text = "07/08/2014"
+    imageView.image = UIImage(named: "hello")
+  }
+  
 }
 
