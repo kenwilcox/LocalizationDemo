@@ -29,10 +29,16 @@ class ViewController: UIViewController {
   
   func populateValues() {
     textLabel.text = "Good Morning"
-    numberLabel.text = "9999999.999"
+    numberLabel.text = numberFormatter.stringFromNumber(9999999.999)
     currencyLabel.text = "50000"
     dateLabel.text = "07/08/2014"
     imageView.image = UIImage(named: "hello")
+  }
+  
+  var numberFormatter: NSNumberFormatter {
+    let formatter = NSNumberFormatter()
+    formatter.numberStyle = .DecimalStyle
+    return formatter
   }
   
 }
