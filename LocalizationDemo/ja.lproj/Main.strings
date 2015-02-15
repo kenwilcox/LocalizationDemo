@@ -1,0 +1,27 @@
+
+/* Class = "IBUILabel"; text = "text"; ObjectID = "B0z-Ev-Im5"; */
+"B0z-Ev-Im5.text" = "text";
+
+/* Class = "IBUILabel"; text = "currency"; ObjectID = "Bw1-uK-phN"; */
+"Bw1-uK-phN.text" = "currency";
+
+/* Class = "IBUILabel"; text = "Number:"; ObjectID = "OjH-Cd-Rha"; */
+"OjH-Cd-Rha.text" = "数:";
+
+/* Class = "IBUILabel"; text = "Currency:"; ObjectID = "U9e-58-ts9"; */
+"U9e-58-ts9.text" = "通貨:";
+
+/* Class = "IBUILabel"; text = "Text:"; ObjectID = "Uxa-K2-bQg"; */
+"Uxa-K2-bQg.text" = "テキスト:";
+
+/* Class = "IBUILabel"; text = "Image:"; ObjectID = "blx-Ig-W2n"; */
+"blx-Ig-W2n.text" = "画像:";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "cqW-Z8-o3H"; */
+"cqW-Z8-o3H.text" = "date";
+
+/* Class = "IBUILabel"; text = "Date:"; ObjectID = "eAB-xr-xmt"; */
+"eAB-xr-xmt.text" = "日付:";
+
+/* Class = "IBUILabel"; text = "number"; ObjectID = "qUx-WP-GaK"; */
+"qUx-WP-GaK.text" = "number";
