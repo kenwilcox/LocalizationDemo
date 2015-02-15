@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     textLabel.text = "Good Morning"
     numberLabel.text = numberFormatter.stringFromNumber(9999999.999)
     currencyLabel.text = currencyFormatter.stringFromNumber(50000)
-    dateLabel.text = "07/08/2014"
+    dateLabel.text = dateFormatter.stringFromDate(NSDate())
     imageView.image = UIImage(named: "hello")
   }
   
@@ -47,5 +47,11 @@ class ViewController: UIViewController {
     return formatter
   }
   
+  var dateFormatter: NSDateFormatter {
+    let formatter = NSDateFormatter()
+    formatter.dateStyle = .MediumStyle
+    formatter.timeStyle = .MediumStyle
+    return formatter
+  }
 }
 
